@@ -22,6 +22,10 @@
     gap: 64px 24px;
   }
 
+  .customers > .container {
+    width: 552px;
+  }
+
   .list-customers {
     gap: 72px 24px;
   }
@@ -36,6 +40,10 @@
     flex-wrap: wrap;
     gap: 72px 24px;
     align-items: baseline;
+  }
+
+  .footer > .container {
+    width: 552px;
   }
 
   .first-box-footer {
@@ -75,6 +83,14 @@
 
 @media screen and (min-width: 1158px) {
   .container {
+    width: 1158px;
+  }
+
+  .customers > .container {
+    width: 1158px;
+  }
+
+  .footer > .container {
     width: 1158px;
   }
 
@@ -153,8 +169,7 @@
     margin-right: 120px;
   }
 
-  .social-media-box-footer{
-
-margin-right: 65px;
-}
+  .social-media-box-footer {
+    margin-right: 65px;
+  }
 }
