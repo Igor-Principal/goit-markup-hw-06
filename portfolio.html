@@ -17,10 +17,11 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/media.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header class="header">
+     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo link"
@@ -28,10 +29,12 @@
           >
           <ul class="list header-list">
             <li>
-              <a href="./index.html" class="link-navigation link">Studio</a>
+              <a href="./index.html" class="link-navigation selected-page link"
+                >Studio</a
+              >
             </li>
             <li>
-              <a href="./portfolio.html" class="link-navigation selected-page link"
+              <a href="./portfolio.html" class="link-navigation link"
                 >Portfolio</a
               >
             </li>
@@ -52,6 +55,11 @@
             </li>
           </ul>
         </address>
+        <button class="btn-header-open" type="button">
+          <svg width="32" height="22" class="icons-header-open">
+            <use href="./images/icons.svg#icon-mob-open"></use>
+          </svg>
+        </button>
       </div>
     </header>
     <main>
@@ -335,11 +343,11 @@
                 placeholder="E-mail"
               />
             </label>
-              <button class="btn-subscribe" type="submit">
-                Subscribe<svg width="24" height="24" class="subscribe-icon">
-                    <use href="./images/icons.svg#icon-send"></use></svg
-                >
-              </button>
+            <button class="btn-subscribe" type="submit">
+              Subscribe<svg width="24" height="24" class="subscribe-icon">
+                <use href="./images/icons.svg#icon-send"></use>
+              </svg>
+            </button>
           </form>
         </div>
       </div>

@@ -92,7 +92,7 @@ ul {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
-  margin-right: 76px;
+  
 }
 .part-of-logo {
   color: var(--main-color);
@@ -142,37 +142,30 @@ ul {
   padding-bottom: 24px;
 }
 
-.header-list {
-  display: flex;
-  gap: 40px;
+.header-list{
+  display: none;
 }
 
-.contacts-info {
-  font-style: normal;
-  display: flex;
-  align-items: center;
+.contacts-info{
+  display: none;
 }
 
-.header-contact-info {
-  display: flex;
-  gap: 40px;
+
+.btn-header-open{
+  display: block;
+  background-color: transparent;
+  border: none;
+
 }
 
-.contacts {
-  color: #434455;
-  font-family: Roboto, sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.32px;
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+.icons-header-open{
+  fill: #2E2F42;
+  flex-shrink: 0;
 }
-.contacts:active,
-.contacts:hover,
-.contacts:focus {
-  color: #404bbf;
-}
+
+
+
+
 .hero-section {
   max-width: 1440px;
   margin: 0 auto;
