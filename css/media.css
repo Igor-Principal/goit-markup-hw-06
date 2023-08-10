@@ -4,8 +4,26 @@
   }
 }
 @media screen and (min-width: 768px) {
+  
   .container {
     width: 766px;
+  }
+
+
+  .hero-section{
+    background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg-tab.jpg);
+  }
+
+  .main-title {
+    max-width: 496px;
+    font-size: 56px;
+    letter-spacing: 1.12px;
+    text-transform: none;
+    margin-bottom: 48px;
   }
 
   .list-about-us {
@@ -93,6 +111,21 @@
   .footer > .container {
     width: 1158px;
   }
+
+  .hero-section {
+    padding-top: 188px;
+    padding-bottom: 188px;
+     background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url(../images/hero-bg.jpg);
+  }
+
+  .main-title{
+    margin-bottom: 48px;
+  }
+
 
   .about-us {
     padding-top: 96px;
