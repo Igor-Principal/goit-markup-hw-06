@@ -53,6 +53,9 @@
   display: none;
 }
 
+.modal-footer{
+  display: none;
+}
 
   .hero-section{
     background-image: linear-gradient(
