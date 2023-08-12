@@ -254,6 +254,7 @@ ul {
 }
 
 .hero-section {
+
   max-width: 1440px;
   margin: 0 auto;
   background-color: var(--main-color);
@@ -417,8 +418,10 @@ ul {
 }
 
 .item-media-icons {
+  
   width: 40px;
   height: 40px;
+  
 }
 
 .link-item-media-icons {
