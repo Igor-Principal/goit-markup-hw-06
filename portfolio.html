@@ -21,7 +21,7 @@
     <title>Portfolio</title>
   </head>
   <body>
-     <header class="header">
+    <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
           <a href="./index.html" class="logo link"
@@ -29,7 +29,7 @@
           >
           <ul class="list header-list">
             <li>
-              <a href="./index.html" class="link-navigation link"
+              <a href="./index.html" class="link-navigation  link"
                 >Studio</a
               >
             </li>
@@ -55,11 +55,87 @@
             </li>
           </ul>
         </address>
-        <button class="btn-header-open" type="button">
+        <button class="btn-header-open" type="button" data-menu-open>
           <svg width="32" height="22" class="icons-header-open">
             <use href="./images/icons.svg#icon-mob-open"></use>
           </svg>
         </button>
+      </div>
+      <div class="modal-footer is-hidden" data-menu>
+        <div>
+          <button
+            class="modal-button-close-footer"
+            type="button"
+            data-menu-close
+          >
+            <svg width="8" height="8" class="modal-close">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="list modal-header-list">
+            <li>
+              <a href="./index.html" class="modal-link-navigation-footer link"
+                >Studio</a
+              >
+            </li>
+            <li>
+              <a
+                href="./portfolio.html"
+                class="modal-link-navigation-footer link"
+                >Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="" class="modal-link-navigation-footer link">Contacts</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <address class="modal-contacts-info">
+            <ul class="list modal-header-contact-info">
+              <li>
+                <a
+                  href="tel:+110001111111"
+                  class="modal-footer-contacts tell-modal-footer link"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a
+                  href="mailto:info@devstudio.com"
+                  class="modal-footer-contacts link"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="modal-list-media-icons list">
+            <li class="item-media-icons">
+              <a class="link-item-media-icons" href=""
+                ><svg width="24" height="24" class="media-icons">
+                  <use href="./images/icons.svg#icon-instagram"></use></svg
+              ></a>
+            </li>
+            <li class="item-media-icons">
+              <a class="link-item-media-icons" href=""
+                ><svg width="24" height="24" class="media-icons">
+                  <use href="./images/icons.svg#icon-twitter"></use></svg
+              ></a>
+            </li>
+            <li class="item-media-icons">
+              <a class="link-item-media-icons" href=""
+                ><svg width="24" height="24" class="media-icons">
+                  <use href="./images/icons.svg#icon-facebook"></use></svg
+              ></a>
+            </li>
+            <li class="item-media-icons">
+              <a class="link-item-media-icons" href=""
+                ><svg width="24" height="24" class="media-icons">
+                  <use href="./images/icons.svg#icon-linkedin"></use></svg
+              ></a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -352,5 +428,6 @@
         </div>
       </div>
     </footer>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
