@@ -3,9 +3,13 @@
     width: 426px;
   }
 }
+
 @media screen and (min-width: 768px) {
   .container {
     width: 766px;
+  }
+  .modal {
+    width: 408px;
   }
 
   .logo {
@@ -56,11 +60,22 @@
   }
 
   .hero-section {
+    max-width: 768px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg-tab.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tab-2x.jpg);
+    }
   }
 
   .main-title {
@@ -86,7 +101,7 @@
   }
 
   .customers > .container {
-    width: 552px;
+    width: 582px;
   }
 
   .list-customers {
@@ -106,7 +121,7 @@
   }
 
   .footer > .container {
-    width: 552px;
+    width: 582px;
   }
 
   .first-box-footer {
@@ -162,7 +177,13 @@
   .products-list-items {
     width: calc((100% - 24px) / 2);
   }
+
+  .modal {
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+  }
 }
+
 
 @media screen and (min-width: 1158px) {
   .container {
@@ -194,13 +215,22 @@
   }
 
   .hero-section {
-    padding-top: 188px;
-    padding-bottom: 188px;
+    max-width: 1440px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
       url(../images/hero-bg.jpg);
+  }
+
+  @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .hero-section {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-2x.jpg);
+    }
   }
 
   .main-title {
@@ -274,6 +304,10 @@
     flex-wrap: nowrap;
   }
 
+  .link-footer {
+    margin-right: 0;
+  }
+
   .footer-subscribe {
     width: max-content;
   }
@@ -291,16 +325,15 @@
     padding-bottom: 120px;
   }
 
-  .list-button-directions{
+  .list-button-directions {
     margin-bottom: 72px;
   }
 
-
- .products-list-items {
+  .products-list-items {
     width: calc((100% - 48px) / 3);
   }
 
-   .products-list {
+  .products-list {
     column-gap: 24px;
     row-gap: 48px;
   }
