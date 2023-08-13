@@ -271,6 +271,7 @@ ul {
   (min-resolution: 192dpi),
   (min-resolution: 2dppx) {
   .hero-section {
+    max-width: 428px;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
